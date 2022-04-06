@@ -10260,7 +10260,7 @@ addcmd('bang',{'rape'},function(args, speaker)
 		if not r15(speaker) then
 			bangAnim.AnimationId = "rbxassetid://148840371"
 		else
-			bangAnim.AnimationId = "rbxassetid://5918726674"
+			bangAnim.AnimationId = "rbxassetid://569145055"
 		end
 		bang = speaker.Character:FindFirstChildOfClass('Humanoid'):LoadAnimation(bangAnim)
 		bang:Play(.1, 1, 1)
